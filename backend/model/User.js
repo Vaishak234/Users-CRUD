@@ -11,14 +11,14 @@ const userSchema = new mongoose.Schema({
     },
     email: {
         type: String,
-        reqired:true
+        reqired:true   
     },
     mobileNo: {
         type: Number,
         reqired: true,
         
     },
-    address1: {
+    address1: {   
         type: String,
         required:true
     },
