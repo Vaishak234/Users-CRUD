@@ -1,0 +1,47 @@
+.form{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 90%;
+    max-width: 550px;
+    padding: 15px;
+}
+.form__title{
+    text-align: center;
+}
+.form .inputContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    
+}
+.form .inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 50%;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.form .inputBox input  {
+    padding: 12px 0px 10px 12px;
+    width: 90%;
+
+}
+
+.form .inputBox select{
+    padding: 12px 5px;
+    width: 95%;
+}
+.createBtn{
+    padding: 8px 18px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 15px;
+}
+.errorMsg{
+    font-size: 12px;
+}
